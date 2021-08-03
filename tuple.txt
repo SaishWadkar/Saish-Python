@@ -1,0 +1,17 @@
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 19:29:22) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> tup=(10,20,30)
+>>> tup
+(10, 20, 30)
+>>> tup[0]
+10
+>>> tup[0]=100
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    tup[0]=100
+TypeError: 'tuple' object does not support item assignment
+>>> tup.count(10)
+1
+>>> tup.index(30)
+2
+>>> 

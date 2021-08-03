@@ -1,0 +1,26 @@
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 19:29:22) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> s={1,2,3,4}
+>>> s
+{1, 2, 3, 4}
+>>> s
+{1, 2, 3, 4}
+>>> s
+{1, 2, 3, 4}
+>>> 
+>>> s.clear()
+>>> s
+set()
+>>> s={10,20,30,40,50}
+>>> s
+{40, 10, 50, 20, 30}
+>>> s.add(60)
+>>> s
+{40, 10, 50, 20, 60, 30}
+>>> s.add('saish')
+>>> s
+{40, 10, 'saish', 50, 20, 60, 30}
+>>> tup=(10,'saish')
+>>> tup
+(10, 'saish')
+>>> 
